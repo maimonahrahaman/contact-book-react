@@ -39,20 +39,9 @@ function ContactDetails() {
       <div className="contact-info">
         <div>
           <label>Email</label>
+          <br></br>
           <span>{contact.email}</span>
         </div>
-        {contact.phone && (
-          <div>
-            <label>Phone</label>
-            <span>{contact.phone}</span>
-          </div>
-        )}
-        {contact.address && (
-          <div>
-            <label>Address</label>
-            <span>{contact.address}</span>
-          </div>
-        )}
       </div>
     </div>
   );
